@@ -1,0 +1,23 @@
+server:
+  servlet:
+    context-path: /
+  port: 8082
+
+spring:
+  thymeleaf:
+    cache: false
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.72.49.169:3306/innerdata?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: 111111
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+
+
+
+
